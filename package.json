@@ -1,0 +1,22 @@
+{
+  "name": "bank_searcher",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gcloud beta functions deploy bankSearch --runtime nodejs8 --memory 128MB --timeout 15 --region asia-northeast1 --trigger-http"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keyakko/bank_searcher.git"
+  },
+  "author": "keyakko (keyakko.web@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keyakko/bank_searcher/issues"
+  },
+  "homepage": "https://github.com/keyakko/bank_searcher#readme",
+  "dependencies": {
+    "zengin-code": "^1.0.0-p20191001"
+  }
+}
